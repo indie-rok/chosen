@@ -3,6 +3,7 @@ package com.alternate.casual;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
 
 //RN Firebase
@@ -41,6 +42,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new ReactNativeOneSignalPackage(),
             new RNFirebasePackage(),
             new RNFirebaseFirestorePackage(),
             new RNFirebaseAuthPackage(),
