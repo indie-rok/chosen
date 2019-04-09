@@ -23,7 +23,7 @@ export default class App extends Component {
     return (
       <View>
         <Text>{this.state.test}</Text>
-        <Text>xd4</Text>
+        <Text>xd5</Text>
       </View>
     );
   }

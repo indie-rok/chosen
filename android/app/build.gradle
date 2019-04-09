@@ -139,8 +139,11 @@ android {
 }
 
 dependencies {
+    // RN Firebase
     implementation project(':react-native-firebase')
     implementation "com.google.firebase:firebase-firestore:17.1.5"
+    implementation "com.google.firebase:firebase-auth:16.1.0"
+    
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
