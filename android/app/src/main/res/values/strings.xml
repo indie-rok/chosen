@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Casual</string>
+    <string name="facebook_app_id">319663568745270</string>
+    <string name="fb_login_protocol_scheme">fb319663568745270</string>
 </resources>
