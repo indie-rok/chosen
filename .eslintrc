@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb",
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "no-use-before-define": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    "comma-dangle": "off"
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true,
+    "fetch": false
+  }
+}
