@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "153704092813",
+    "firebase_url": "https://groupper-test.firebaseio.com",
+    "project_id": "groupper-test",
+    "storage_bucket": "groupper-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153704092813:android:c8ae6d8c70ede510",
+        "android_client_info": {
+          "package_name": "com.alternate.casual"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcDy-nFHFOWWYdeTQxjefv6G2X5nZLLZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153704092813-kh3il4en1u8b872l10814havlk4p948s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "casual",
+  "name": "Casual",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -24,7 +24,8 @@
     "prettier": "^1.16.4",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
-    "react-native": "0.59.4"
+    "react-native": "0.59.4",
+    "react-native-firebase": "^5.2.5"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

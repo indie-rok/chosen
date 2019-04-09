@@ -1,21 +1,29 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
+import firebase from 'react-native-firebase';
 
 export default class App extends Component {
-  componentDidMount() {}
+  constructor() {
+    super();
+    this.state = { test: `` };
+  }
+
+  componentDidMount() {
+    firebase
+      .firestore()
+      .collection('users')
+      .doc('oneid')
+      .get()
+      .then((snapshot) => {
+        this.setState({ test: snapshot.data().email });
+      });
+  }
 
   render() {
     return (
       <View>
-        <Text>xd</Text>
+        <Text>{this.state.test}</Text>
+        <Text>xd4</Text>
       </View>
     );
   }
