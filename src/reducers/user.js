@@ -1,6 +1,6 @@
 import { UPDATE_USER } from '../features/login/constants';
 
-const initalState = { facebookToken: null, email: null, firstName: null, lastName: null };
+const initalState = null;
 
 export default function UserReducer(state = initalState, action) {
   switch (action.type) {
