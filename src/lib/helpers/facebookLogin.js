@@ -1,7 +1,6 @@
 import { Alert } from 'react-native';
 import { AccessToken, LoginManager } from 'react-native-fbsdk';
 import firebase from 'react-native-firebase';
-import { put } from 'redux-saga/effects';
 
 export default function facebookLogin() {
   return new Promise(async (resolve, reject) => {

@@ -1,6 +1,6 @@
 import { createStackNavigator, createAppContainer, createSwitchNavigator } from 'react-navigation';
 import LoginScreen from '../features/login/components';
-import RedirectorLogic from './RedirectorLogic';
+import RedirectorLogicScreen from './RedirectorLogic';
 
 const ConnectFacebookStack = createSwitchNavigator({
   SignIn: {
@@ -26,7 +26,7 @@ ConnectFacebookStack.navigationOptions = {
 // });
 
 const MainAppNavigator = createStackNavigator({
-  RedirectorLogic: { screen: RedirectorLogic },
+  RedirectorLogic: { screen: RedirectorLogicScreen },
   ConnectFacebook: ConnectFacebookStack,
   //   MainApp: MainAppStack,
   //   NewMeeting: NewMeetingStack,

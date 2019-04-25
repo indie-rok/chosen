@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Alert } from 'react-native';
-import { Container, Content, Spinner } from 'native-base';
 import { connect } from 'react-redux';
+import { Container, Content, Spinner } from 'native-base';
 
 import { getUser } from '../selectors/user';
 
-const mapStateToProps = (state) => {
+export const mapStateToProps = (state) => {
   return {
     user: getUser(state),
   };
 };
 
-class RedirectorLogic extends Component {
+export class RedirectorLogic extends React.Component {
   componentDidMount() {
     const { navigation, user } = this.props;
     if (user) {

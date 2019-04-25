@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#RedirectorLogic #render should mach the snapshot 1`] = `
+<RedirectorLogic
+  navigation={
+    Object {
+      "navigate": [MockFunction],
+      "replace": [MockFunction] {
+        "calls": Array [
+          Array [
+            "ConnectFacebook",
+          ],
+          Array [
+            "ConnectFacebook",
+          ],
+          Array [
+            "ConnectFacebook",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+    }
+  }
+  user={null}
+>
+  <Styled(Container)>
+    <Container
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "flex": 1,
+          "height": 1334,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "flex": 1,
+            "height": 1334,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "flex": 1,
+              "height": 1334,
+            }
+          }
+        >
+          <Styled(Content)>
+            <Content
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "flex": 1,
+                }
+              }
+            >
+              <KeyboardAwareScrollViewMock
+                automaticallyAdjustContentInsets={false}
+                contentContainerStyle={
+                  Array [
+                    Object {
+                      "padding": undefined,
+                    },
+                    undefined,
+                  ]
+                }
+                enableAutomaticScroll={true}
+                enableOnAndroid={false}
+                enableResetScrollToCoords={true}
+                extraHeight={75}
+                extraScrollHeight={0}
+                keyboardOpeningTime={250}
+                keyboardShouldPersistTaps="handled"
+                resetScrollToCoords={
+                  Object {
+                    "x": 0,
+                    "y": 0,
+                  }
+                }
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "flex": 1,
+                  }
+                }
+                viewIsInsideTabBar={false}
+              >
+                <ScrollViewMock
+                  automaticallyAdjustContentInsets={false}
+                  contentContainerStyle={
+                    Array [
+                      Object {
+                        "padding": undefined,
+                      },
+                      undefined,
+                    ]
+                  }
+                  contentInset={
+                    Object {
+                      "bottom": 0,
+                    }
+                  }
+                  enableAutomaticScroll={true}
+                  enableOnAndroid={false}
+                  enableResetScrollToCoords={true}
+                  extraHeight={75}
+                  extraScrollHeight={0}
+                  getScrollResponder={[Function]}
+                  handleOnScroll={[Function]}
+                  keyboardDismissMode="interactive"
+                  keyboardOpeningTime={250}
+                  keyboardShouldPersistTaps="handled"
+                  keyboardSpace={0}
+                  onScroll={[Function]}
+                  resetKeyboardSpace={[Function]}
+                  resetScrollToCoords={
+                    Object {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  scrollEventThrottle={1}
+                  scrollForExtraHeightOnAndroid={[Function]}
+                  scrollIntoView={[Function]}
+                  scrollToEnd={[Function]}
+                  scrollToFocusedInput={[Function]}
+                  scrollToPosition={[Function]}
+                  showsVerticalScrollIndicator={true}
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                  update={[Function]}
+                  viewIsInsideTabBar={false}
+                >
+                  <_class
+                    automaticallyAdjustContentInsets={false}
+                    contentContainerStyle={
+                      Array [
+                        Object {
+                          "padding": undefined,
+                        },
+                        undefined,
+                      ]
+                    }
+                    contentInset={
+                      Object {
+                        "bottom": 0,
+                      }
+                    }
+                    enableAutomaticScroll={true}
+                    enableOnAndroid={false}
+                    enableResetScrollToCoords={true}
+                    extraHeight={75}
+                    extraScrollHeight={0}
+                    getScrollResponder={[Function]}
+                    handleOnScroll={[Function]}
+                    keyboardDismissMode="interactive"
+                    keyboardOpeningTime={250}
+                    keyboardShouldPersistTaps="handled"
+                    keyboardSpace={0}
+                    onScroll={[Function]}
+                    resetKeyboardSpace={[Function]}
+                    resetScrollToCoords={
+                      Object {
+                        "x": 0,
+                        "y": 0,
+                      }
+                    }
+                    scrollEventThrottle={1}
+                    scrollForExtraHeightOnAndroid={[Function]}
+                    scrollIntoView={[Function]}
+                    scrollToEnd={[Function]}
+                    scrollToFocusedInput={[Function]}
+                    scrollToPosition={[Function]}
+                    showsVerticalScrollIndicator={true}
+                    style={
+                      Object {
+                        "backgroundColor": "transparent",
+                        "flex": 1,
+                      }
+                    }
+                    update={[Function]}
+                    viewIsInsideTabBar={false}
+                  >
+                    <RCTScrollView
+                      automaticallyAdjustContentInsets={false}
+                      contentContainerStyle={
+                        Array [
+                          Object {
+                            "padding": undefined,
+                          },
+                          undefined,
+                        ]
+                      }
+                      contentInset={
+                        Object {
+                          "bottom": 0,
+                        }
+                      }
+                      enableAutomaticScroll={true}
+                      enableOnAndroid={false}
+                      enableResetScrollToCoords={true}
+                      extraHeight={75}
+                      extraScrollHeight={0}
+                      getScrollResponder={[Function]}
+                      handleOnScroll={[Function]}
+                      keyboardDismissMode="interactive"
+                      keyboardOpeningTime={250}
+                      keyboardShouldPersistTaps="handled"
+                      keyboardSpace={0}
+                      onScroll={[Function]}
+                      resetKeyboardSpace={[Function]}
+                      resetScrollToCoords={
+                        Object {
+                          "x": 0,
+                          "y": 0,
+                        }
+                      }
+                      scrollEventThrottle={1}
+                      scrollForExtraHeightOnAndroid={[Function]}
+                      scrollIntoView={[Function]}
+                      scrollToEnd={[Function]}
+                      scrollToFocusedInput={[Function]}
+                      scrollToPosition={[Function]}
+                      showsVerticalScrollIndicator={true}
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "flex": 1,
+                        }
+                      }
+                      update={[Function]}
+                      viewIsInsideTabBar={false}
+                    >
+                      <View>
+                        <View>
+                          <Styled(Spinner)
+                            color="blue"
+                          >
+                            <Spinner
+                              color="blue"
+                              style={
+                                Object {
+                                  "height": 80,
+                                }
+                              }
+                            >
+                              <ActivityIndicator
+                                animating={true}
+                                color="blue"
+                                hidesWhenStopped={true}
+                                size="large"
+                                style={
+                                  Object {
+                                    "height": 80,
+                                  }
+                                }
+                              >
+                                <ActivityIndicator
+                                  animating={true}
+                                  color="blue"
+                                  hidesWhenStopped={true}
+                                  size="large"
+                                  style={
+                                    Object {
+                                      "height": 80,
+                                    }
+                                  }
+                                />
+                              </ActivityIndicator>
+                            </Spinner>
+                          </Styled(Spinner)>
+                        </View>
+                      </View>
+                    </RCTScrollView>
+                  </_class>
+                </ScrollViewMock>
+              </KeyboardAwareScrollViewMock>
+            </Content>
+          </Styled(Content)>
+        </View>
+      </View>
+    </Container>
+  </Styled(Container)>
+</RedirectorLogic>
+`;
