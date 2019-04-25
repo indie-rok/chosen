@@ -17,19 +17,22 @@ const mapDispatchToProps = (dispatch) =>
 class Login extends Component {
   constructor(props) {
     super(props);
-    this.loginFacebook = this.loginFacebook.bind(this);
+    this.connectWithFacebook = this.connectWithFacebook.bind(this);
   }
 
-  async loginFacebook() {
-    const res = await facebookLogin();
-    this.props.login(res);
+  async connectWithFacebook() {
+    const facebookData = await facebookLogin();
+    // eslint-disable-next-line react/destructuring-assignment
+    this.props.login(facebookData);
+    // eslint-disable-next-line react/destructuring-assignment
+    this.props.navigation.navigate('RedirectorLogic');
   }
 
   render() {
     return (
       <Container>
         <Content>
-          <Button onPress={this.loginFacebook}>
+          <Button onPress={this.connectWithFacebook}>
             <Text>Connect with Facebook</Text>
           </Button>
         </Content>

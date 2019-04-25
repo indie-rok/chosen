@@ -1,7 +1,7 @@
 import { Alert } from 'react-native';
 import { AccessToken, LoginManager } from 'react-native-fbsdk';
 import firebase from 'react-native-firebase';
-import { put, takeEvery } from 'redux-saga/effects';
+import { put } from 'redux-saga/effects';
 
 export default function facebookLogin() {
   return new Promise(async (resolve, reject) => {
@@ -26,21 +26,9 @@ export default function facebookLogin() {
 
       // login with credential
       const firebaseUserCredential = await firebase.auth().signInWithCredential(credential);
-
       resolve({ facebookToken: data.accessToken, ...firebaseUserCredential.user.toJSON() });
     } catch (e) {
       reject(new Error(`Error while getting facebook access token ${e}`));
     }
   });
-}
-
-const delay = (ms) => new Promise((res) => setTimeout(res, ms));
-
-export function* incrementAsync() {
-  yield delay(1000);
-  yield put({ type: 'INCREMENT' });
-}
-
-export function* watchIncrementAsync() {
-  yield takeEvery('INCREMENT_ASYNC', incrementAsync);
 }
