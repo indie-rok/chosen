@@ -8,5 +8,4 @@ module.exports = {
   setupFiles: ['<rootDir>/src/jest/setup.js'],
   transformIgnorePatterns: ['node_modules/(?!(jest-)?react-native|native-base)'],
   coveragePathIgnorePatterns: ['/node_modules/', '/jest'],
-  snapshotSerializers: ['enzyme-to-json/serializer'],
 };
